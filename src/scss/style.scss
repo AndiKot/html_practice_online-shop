@@ -1,0 +1,11 @@
+@import "fonts";
+* {
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  box-sizing: border-box;
+}
+
+@import "vars";
+@import "mixins";
+@import "general";
+@import "media";
+
