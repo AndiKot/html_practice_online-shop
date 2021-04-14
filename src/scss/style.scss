@@ -1,11 +1,16 @@
-@import "fonts";
+@import "base/fonts";
+
 * {
   font-family: 'Museo Sans Cyrl 300', sans-serif;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-@import "vars";
-@import "mixins";
+@import "base/vars";
+@import "base/mixins";
+@import "blocks/promo";
+@import "blocks/header";
 @import "general";
 @import "media";
 
