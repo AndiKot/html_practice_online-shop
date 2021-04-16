@@ -1,0 +1,11 @@
+.block-header{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    &_big{
+        color: #fff;
+        font-size: 36px;
+    }
+}
