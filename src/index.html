@@ -33,7 +33,7 @@
             </header>
             <div class="promo__wrapper">
                 <h1 class="promo__header">Подбор пульсометра</h1>
-                <h2 class="promo__subheader">с учетом вашего уровня подготовки</h2>
+                <h2 class="promo__subheader">с учётом вашего уровня подготовки</h2>
                 <div class="promo__icons">
                     <div class="promo__icon">
                         <img src="img/icons/timer.png" alt="Timer">
@@ -99,14 +99,18 @@
 
     <section class="consultation">
         <div class="container">
-            <h2 class="block-header block-header_big">получитебесплатную консультацию <br>
-                по подбору пульсометра</h2>
-            Просто заполните форму заявки<br>
-            и мы перезвоним вам в течении 10 минут
-            <form id="consultation__form" action="#" class="consultation__form" method="post">
-                <input type="text" class="consultation__input" placeholder="Ваше имя">
-                <input type="text" class="consultation__input" placeholder="Ваш телефон">
-                <input type="text" class="consultation__input" placeholder="Ваш E-mail">
+            <h2 class="block-header block-header_big">
+                получитебесплатную консультацию <br>
+                по подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form id="form-main" action="#" class="form-feed" method="post">
+                <input name="name" required type="text" class="form-feed__input" placeholder="Ваше имя">
+                <input name="phone" required type="tel" class="form-feed__input" placeholder="Ваш телефон">
+                <input name="email" required type="email" class="form-feed__input" placeholder="Ваш E-mail">
                 <button class="button button_submit" type="submit">заказать консультацию</button>
             </form>
         </div>

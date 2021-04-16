@@ -1,16 +1,11 @@
 .consultation{
-    height: 680px;
+    min-height: 680px;
+    padding: 100px 0 92px;
     background: url('../img/bg_2.png') center center/cover no-repeat;
-    &__form{
-        margin-top: 36px;
-        display: flex;
-        flex-direction: column;
-    }
-    &__input{
-        margin-top: 15px;
-        width: 300px;
-        height: 50px;
-        border-radius: 5px;
-        border: none;
+    &__descr{
+        margin-top: 85px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
     }
 }
