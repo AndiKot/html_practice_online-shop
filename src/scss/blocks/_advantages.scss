@@ -2,6 +2,7 @@
     width: 100%;
     padding: 65px 0 80px;
     &__wrapper{
+        margin-top: 65px;
         display: flex;
         justify-content: space-between;
     }
@@ -27,6 +28,15 @@
             color: $main-color;
             text-decoration: underline;
             text-transform: uppercase;
+        }
+    }
+    &__icon{
+        &_animated{
+            animation: heartbeat 2s infinite ease-in-out;
+            // animation-delay: 1s;
+        }
+        &:hover{
+            animation-play-state: paused;
         }
     }
 }
