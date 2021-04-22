@@ -15,12 +15,14 @@
     }
     &__header{
         margin-top: 38px;
+        font-family: "Museo Sans Cyrl 700";
         font-size: 18px;
         font-weight: 700;
         text-align: center;
     }
     &__descr{
         margin-top: 27px;
+        font-family: "Museo Sans Cyrl 300";
         font-size: 14px;
         font-weight: 300;
         text-align: center;
@@ -33,7 +35,6 @@
     &__icon{
         &_animated{
             animation: heartbeat 2s infinite ease-in-out;
-            // animation-delay: 1s;
         }
         &:hover{
             animation-play-state: paused;

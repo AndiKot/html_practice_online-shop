@@ -1,11 +1,12 @@
-.block-header{
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-    &_big{
-        color: #fff;
-        font-size: 36px;
-        text-align-last: left;
-    }
+.block-header {
+  font-size: 30px;
+  font-family: "Museo Sans Cyrl 700";
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  &_big {
+    color: #fff;
+    font-size: 36px;
+    text-align-last: left;
+  }
 }

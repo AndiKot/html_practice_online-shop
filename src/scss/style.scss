@@ -1,7 +1,10 @@
 @import "base/fonts";
+@import "libs/bootstrap-reboot.min";
+@import "libs/_bootstrap-grid.min";
+@import "libs/_slick";
 
 * {
-  font-family: 'Museo Sans Cyrl', sans-serif;
+  font-family: 'Museo Sans Cyrl 500', sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
